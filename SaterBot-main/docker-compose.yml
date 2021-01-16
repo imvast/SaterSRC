@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  daedbot:
+    image: daedbot
+    build:
+      context: .
+      dockerfile: Dockerfile
